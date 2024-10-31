@@ -3,17 +3,17 @@ import { useCart } from "./CartContext";
 import "../components/Cartpage.css";
 import axios from "axios";
 
-interface CartItem {
-  id: string;
-  title: string;
-  price: number;
-  quantity: number;
-  image: string;
-}
+// interface CartItem {
+//   id: string;
+//   title: string;
+//   price: number;
+//   quantity: number;
+//   image: string;
+// }
 
 const Cartpage: React.FC = () => {
   const { cartItems, totalPrice, setCartItems, updateTotalPrice } = useCart();
-  const [paymentSuccess, setPaymentSuccess] = useState<boolean>(false);
+  const [paymentSuccess] = useState<boolean>(false);
 
   useEffect(() => {
     updateTotalPrice();
@@ -66,10 +66,10 @@ const Cartpage: React.FC = () => {
     }
   };
 
-  const handlePaymentSuccess = () => {
-    setCartItems([]);
-    setPaymentSuccess(true);
-  };
+  // const handlePaymentSuccess = () => {
+  //   setCartItems([]);
+  //   setPaymentSuccess(true);
+  // };
 
   return (
     <>
