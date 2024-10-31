@@ -1,0 +1,24 @@
+.qty {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.btn-qty {
+  padding: 3px 5px 3px 5px;
+  cursor: pointer;
+}
+.grid-box1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 50%;
+  height: 350px;
+  overflow-y: scroll;
+}
+.flex-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}

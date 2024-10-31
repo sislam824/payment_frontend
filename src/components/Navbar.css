@@ -1,0 +1,57 @@
+.nav-box ul {
+  display: flex;
+  background-color: rgb(76, 34, 132);
+  height: 50px;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  color: white;
+  gap: 30px;
+  cursor: pointer;
+  position: relative;
+}
+.nav-box {
+  margin-bottom: 20px;
+}
+.nav-box ul li:hover {
+  color: rgb(49, 139, 139);
+}
+.horzontal-line:hover {
+  width: 40px;
+  color: white;
+  border: 1px solid white;
+  position: absolute;
+  top: 1%;
+  right: 51%;
+}
+.count-no {
+  position: absolute;
+  top: 10%;
+  left: 52.8%;
+  border-radius: 50%;
+  background-color: whitesmoke;
+  color: black;
+  width: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .count-no {
+    position: absolute;
+    top: 10%;
+    left: 56.3%;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    color: black;
+    width: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
