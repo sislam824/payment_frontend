@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "../components/Fetchdata.css";
+import "../components/FetchData.css";
 import { useCart } from "./CartContext";
 
 // Define the shape of a product item
