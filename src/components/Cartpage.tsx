@@ -50,7 +50,7 @@ const Cartpage: React.FC = () => {
         {
           items: cartItems.map((item) => ({
             title: item.title,
-            price: "0.01",
+            price: item.price,
             quantity: item.quantity,
           })),
         }
