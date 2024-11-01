@@ -56,11 +56,11 @@ const Cartpage: React.FC = () => {
         }
       );
 
-      if (!response.data || !response.data.url) {
+      if (response.data.session && response.data.session.url) {
+        window.location.href = response.data.session.url;
+      } else {
         throw new Error("Failed to initiate checkout");
       }
-
-      window.location.href = response.data.url;
     } catch (error) {
       console.error("Error during checkout:", error);
     }
