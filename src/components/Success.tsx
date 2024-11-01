@@ -9,7 +9,7 @@ const Success: React.FC = () => {
         alignItems: "center",
       }}
     >
-      <img src="https://i.gifer.com/7efs.gif" alt="Payment Successful" />
+      {/* <img src="https://i.gifer.com/7efs.gif" alt="Payment Successful" /> */}
       <h2>Payment Successful</h2>
     </div>
   );

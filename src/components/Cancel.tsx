@@ -11,11 +11,11 @@ const Cancel: React.FC = () => {
         gap: "30px",
       }}
     >
-      <img
+      {/* <img
         style={{ borderRadius: "50%" }}
         src="https://media0.giphy.com/media/H83AtuIiUPdxvWXzFK/200w.gif?cid=6c09b952e0y84lhpg330r96vl3vdos939fonaks89qc87ok2&ep=v1_gifs_search&rid=200w.gif&ct=g"
         alt="Cancelled payment animation"
-      />
+      /> */}
       <h2>Payment Cancelled!!!</h2>
     </div>
   );
